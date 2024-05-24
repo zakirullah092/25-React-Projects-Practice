@@ -1,0 +1,48 @@
+.ImageSlider{
+    background-color: aquamarine;
+    width: 100vw;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+/* ImageSlider.css */
+
+.ImageSlider {
+    text-align: center;
+    padding: 20px;
+}
+
+.ImageSliderContainer {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.image-display {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-display img {
+    width: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.show {
+    margin-bottom: 20px;
+}

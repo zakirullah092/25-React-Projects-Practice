@@ -1,0 +1,11 @@
+.StarRating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    background-color: antiquewhite;
+    margin-top: 20px;
+}
+    

@@ -1,0 +1,30 @@
+.accordion {
+    width: 100vw;
+    height: auto;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.accordionMain{
+    width: 80%;
+    height: auto;
+}
+.accordionMain h3{
+    background-color: black;
+    color: white;
+    padding: 14px;
+    border-radius: 10px;
+    margin: 15px auto 15px;
+}
+.accordionMain h3:hover{
+    background-color: gold;
+    color: black;
+    cursor: pointer;
+}
+.accordionMain span {
+    float: right;
+}
+

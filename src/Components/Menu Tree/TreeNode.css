@@ -1,0 +1,16 @@
+.TreeView{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: auto;
+  background-color: lightsalmon;
+  flex-direction: column;
+  margin: 20px 0;
+}
+.TreenodeContent{
+cursor: pointer;
+}
+
+
+

@@ -1,0 +1,42 @@
+.tabMain {
+  width: 100vw;
+  height: auto;
+  background-color: lightblue;
+  text-align: center;
+}
+
+.tabContent ul {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  margin: 30px auto;
+  list-style: none;
+  border: none;
+}
+
+.tabContent ul li {
+  background-color: black;
+  color: gold;
+  padding: 14px;
+  transition: background-color 0.3s, color 0.3s; /* Add smooth transitions */
+}
+
+.tabContent ul li:hover {
+  background-color: darkcyan;
+  cursor: pointer;
+}
+
+.tabItem.active {
+  background-color: darkorange;
+  color: black;
+}
+
+.tabP {
+  width: 500px;
+  height: auto;
+  padding: 14px;
+  background-color: lightslategray;
+  color: white;
+  border-radius: 15px;
+  margin: 0 auto 30px;
+}

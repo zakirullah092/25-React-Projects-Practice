@@ -9,6 +9,8 @@ import ThemeChanger from "./Components/ThemeChange/ThemeChanger";
 import Tab from "./Components/Tabs/Tab";
 import ScrollIndicator from "./Components/ScrollIndicator/ScrollIndicator";
 import LoadMorePosts from "./Components/LoadMoreButton/LoadMorePosts"; // Adjusted path
+import Modal from "./Components/Modal/Modal";
+import BackToTopButton from "./Components/BackToTopBtn/BackToTopButton";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
       <Tab />
       <ScrollIndicator />
       <LoadMorePosts />
+      <Modal />
+      <BackToTopButton />
     </div>
   );
 }

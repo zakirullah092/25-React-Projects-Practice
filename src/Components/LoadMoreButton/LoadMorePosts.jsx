@@ -35,7 +35,7 @@ function LoadMorePosts() {
 
     return (
         <div  className="load-more-posts" style={{margin:' 0'}}>
-            <h1 style={{background:'lightgreen', padding:'14px', margin:'10px 0 0 20px'}}>Project 11: Load More Button</h1>
+            <h1 style={{background:'lightgreen', padding:'14px', margin:'10px 0 0 0px'}}>Project 11: Load More Button</h1>
             <button onClick={() => setShow(!show)}>{show ? 'Hide' : 'Show'} Project</button>
             
             {show && (

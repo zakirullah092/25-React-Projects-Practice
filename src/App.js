@@ -1,3 +1,4 @@
+import Header from "./Components/Header/Header";
 import Accordion from "./Components/Accordion/Accordion";
 import './App.css';
 import RandomColor from "./Components/RandomColorGenerator/RandomColor";
@@ -15,6 +16,7 @@ import BackToTopButton from "./Components/BackToTopBtn/BackToTopButton";
 function App() {
   return (
     <div>
+      <Header />
       <Accordion />
       <RandomColor />
       <StarRating />

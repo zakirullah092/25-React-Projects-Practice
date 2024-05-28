@@ -1,0 +1,74 @@
+.bodyMain {
+    width: 100vw;
+    height: auto;
+  }
+  
+  .aboutme {
+    position: relative;
+    background: linear-gradient(180deg, #844CFC 0%, rgba(27, 1, 83, 0.43) 100%);
+    padding: 50px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .aboutme h1:first-child {
+    color: white;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .aboutmeh12 {
+    position: absolute;
+   top: 10px;
+    text-align: left;
+    color: transparent;
+    -webkit-text-stroke: 1px lightgrey;
+    z-index: 1;
+    font-size: 70px;
+  }
+  
+  .aboutme p {
+    margin-top: 20px;
+    color: white;
+  }
+  .chooseMe{
+    width: 100%;
+    background-color: #edf4fa;
+    text-align: center;
+    padding: 14px;
+  }
+  .cards {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20px;
+  }
+
+  .cards div{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 2px 4px 5px black;
+    padding: 24px;
+    text-align: left;
+color: white;  }
+.cards div h2 {
+    margin-bottom: 20px;
+
+}
+.cards div p{
+    text-align: left;
+}
+  .card1{
+    background-color: #7F43FE;
+  }
+  .card2 {
+    background-color: #FF1F4A;
+
+  }
+  .card3{
+    background-color: #FFB800;
+  }

@@ -38,6 +38,9 @@ function Header() {
                 </div>
 
             </section>
+            <section className="aboutMe">
+                
+            </section>
         </div>
     )
 }

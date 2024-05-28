@@ -12,11 +12,13 @@ import ScrollIndicator from "./Components/ScrollIndicator/ScrollIndicator";
 import LoadMorePosts from "./Components/LoadMoreButton/LoadMorePosts"; // Adjusted path
 import Modal from "./Components/Modal/Modal";
 import BackToTopButton from "./Components/BackToTopBtn/BackToTopButton";
+import BodyContent from "./Components/Body/BodyContent";
 
 function App() {
   return (
     <div>
       <Header />
+      <BodyContent />
       <Accordion />
       <RandomColor />
       <StarRating />

@@ -1,8 +1,10 @@
-.myHeader{
+/* Base styles */
+.myHeader {
     width: 100vw;
     height: auto;
     background-color: #F7F3FF;
 }
+
 header ul {
     display: flex;
     width: 80vw;
@@ -11,17 +13,21 @@ header ul {
     justify-content: space-around;
     align-items: center;
     margin: 0 auto 10px;
+    flex-wrap: wrap;
 }
+
 header ul li {
     padding: 14px;
     font-weight: bold;
 }
+
 header ul li:hover {
     background-color: black;
     color: white;
     cursor: pointer;
 }
-.hero{
+
+.hero {
     width: 100vw;
     height: auto;
     background-color: #f7f3ff;
@@ -30,11 +36,10 @@ header ul li:hover {
     align-items: center;
     flex-wrap: wrap;
     padding: 24px;
-
-
 }
-.left, .right{
-     min-width: 250px;
+
+.left, .right {
+    min-width: 250px;
     width: 45%;
     height: auto;
     padding: 24px;
@@ -43,63 +48,145 @@ header ul li:hover {
     justify-content: center;
 }
 
-
-.me{
+.me {
     font-weight: bold;
-color: dodgerblue;
-
+    color: dodgerblue;
 }
-.crafting{
+
+.crafting {
     font-size: 40px;
     font-weight: 400;
 }
-.senior{
+
+.senior {
     color: #fe4367;
     font-weight: bold;
 }
-.developer{
+
+.developer {
     color: #7F43FE;
     font-weight: bold;
 }
-.heroP{
+
+.heroP {
     margin-top: 10px;
     overflow: hidden;
 }
 
-.meta{
+.meta {
     background-color: dodgerblue;
     color: white;
     padding: 4px;
     border-radius: 10px;
-
 }
-.heroBtns button{
+
+.heroBtns button {
     background-color: lightseagreen;
     border-radius: 10px;
     color: black;
-    
 }
-.heroBtns button:hover{
-background-color: dodgerblue;
-color: white;
+
+.heroBtns button:hover {
+    background-color: dodgerblue;
+    color: white;
 }
-.right{
+
+.right {
     display: flex;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
     padding: 24px;
-
 }
+
 .innerRight {
     border: 10px solid lightblue;
     border-radius: 50% 50% 0 0;
     overflow: hidden;
     height: 300px;
-
 }
-.innerRight img{
+
+.innerRight img {
     width: 300px;
     height: 400px;
     margin-bottom: -10px;
     background: linear-gradient(#7F43FE, blue);
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    header ul {
+        height: auto;
+    }
+
+    header ul li {
+        padding: 10px;
+    }
+
+    .hero {
+        padding: 16px;
+    }
+
+    .left, .right {
+        width: 50%;
+        padding: 16px;
+    }
+
+    .crafting {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .crafting {
+        font-size: 28px;
+    }
+
+    .meta {
+        padding: 3px;
+        font-size: 14px;
+    }
+
+    .heroBtns button {
+        margin-bottom: 8px;
+    }
+}
+@media (max-width : 668px) {
+    .hero{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .left , .right {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .left, .right {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .crafting {
+        font-size: 24px;
+    }
+
+    .meta {
+        padding: 2px;
+        font-size: 12px;
+    }
+
+    .heroBtns button {
+        font-size: 14px;
+    }
+
+    .innerRight img {
+        width: 100%;
+        height: auto;
+    }
 }
